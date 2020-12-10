@@ -111,7 +111,6 @@ Combining the above recommendations together, makes this configuration:
     -XX:ParallelGCThreads=16 -XX:+UseConcMarkSweepGC 
     -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs
     -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark 
-    -XX:+UseLargePages -XX:LargePageSizeInBytes=256m
     -XX:+UseCompressedOops -XX:+DisableExplicitGC -XX:-UseBiasedLocking
     -XX:+BindGCTaskThreadsToCPUs -XX:+UseFastAccessorMethods
     -XX:InitialCodeCacheSize=32m -XX:ReservedCodeCacheSize=96m
